@@ -1,6 +1,3 @@
-// TODO: INCLUDE 2 ROUTES
-// a GET route to '/survey'- displays survey page
-// a default catch-all route displays home.html
 var path = require("path");
 
 module.exports = function(app){

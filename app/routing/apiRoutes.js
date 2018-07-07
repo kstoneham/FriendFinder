@@ -1,6 +1,3 @@
-// TODO: 2 routes
-// a GET route with /api/friends- displays JSON of all possible friends
-// a POST route /api/friends- handles incoming survey results and compatibility logic
 var friends = require("../data/friends");
 
 module.exports = function(app){
@@ -24,6 +21,8 @@ module.exports = function(app){
                 console.log("Total Difference between closest match: " + totalDifference);
             }
         }
+        // I gave up right about here.  I need to get a modal to display the best match, which currently isn't working and I can't get the logic 
+        // right.
         console.log("Best Match:", endResult);
         friends.push(newFriend);
 
